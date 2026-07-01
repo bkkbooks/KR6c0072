@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR6c0072/X/v1
+canonical_location: https://kanripo.org/bkk/KR6c0072/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金剛經大意
+  identifiers:
+    krp: KR6c0072
+    cbeta: X25n0484
+    cbeta_old_id: X25n0484
+    authorityid: CA0001679
+    json_key: X0484
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X25/X25n0484.xml
+    old_id: X25n0484
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0072_000-X.yaml, hash: 'sha256:55700cca690f29352815b44cfb88600d463c51c1959fe6abc92a6772cc302107'}
+  - {seq: 1, filename: KR6c0072_001-X.yaml, hash: 'sha256:4f9091ed94a77388d7ab8b6a9a10b1491cf8dfc53d75f29d611bf7b8f1c3a7ab'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6c0072_000-X.markers.yaml, hash: 'sha256:8bda9285731b2d0724dc2e425e26bfd09014e71c727bcb98491c812f20f17aab'}
+  - {seq: 1, role: markers, filename: assets/KR6c0072_001-X.markers.yaml, hash: 'sha256:1a8ff41081acc064437a4e187236089aeefc6c4f5b466e2a120563d502d5688f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6c0072_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 答屠息庵讀金剛經大意書
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6c0072_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 4804
+  label: 答屠息庵讀金剛經大意書
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6c0072_X_001-mulu-1
+    span:
+    - body
+    - 3926
+    - 3926
+  label: No. 484-A 金剛大意自䟦
+  type: mulu
+  level: 1
+hash: sha256:bc0c708494cb66f57fbf81dab07a263aefc0e9963172bb9c87d012ed9124c35d
